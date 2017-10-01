@@ -1,0 +1,27 @@
+dummy
+{
+    "cnt": 1
+};
+
+dummy
+{
+    "err": "I am different!"
+};
+
+name
+{
+    ...
+};
+
+[
+    "first": 
+    dummy
+    {
+        "cnt": 1
+    };
+    "second":
+    dummy
+    {
+        "cnt": 2
+    };
+]

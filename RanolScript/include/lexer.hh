@@ -13,13 +13,16 @@ public:
 
 public:
 	TokenSeq token_seq;
+	std::map<std::string, TokenType> keyword_map;
 
 public:
-	lexer( ) = default;
+	lexer( );
 	~lexer( ) = delete;
 
 public:
-	void lex( );
+	void lex( const string_lines& lines );
+	void dump( ) const;
+	void dump( std::ostream& out ) const;
 
 public:
 	ptr create_lexer( ) const noexcept;

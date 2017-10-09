@@ -50,5 +50,11 @@
     <ClCompile Include="src\object.cc">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="src\lexer.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\token.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

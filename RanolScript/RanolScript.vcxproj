@@ -27,8 +27,10 @@
     <ClInclude Include="include\Util\Utility.hh" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\lexer.cc" />
     <ClCompile Include="src\main.cc" />
     <ClCompile Include="src\object.cc" />
+    <ClCompile Include="src\token.cc" />
     <ClCompile Include="src\Util\Utility.cc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
